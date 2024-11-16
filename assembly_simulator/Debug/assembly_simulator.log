@@ -1,0 +1,6 @@
+﻿  assembly_simulator.cpp
+c:\users\weaama\source\repos\assembly_simulator\assembly_simulator\assembly_simulator.cpp(82): warning C4018: '<': signed/unsigned mismatch
+c:\users\weaama\source\repos\assembly_simulator\assembly_simulator\assembly_simulator.cpp(128): warning C4101: 'e': unreferenced local variable
+c:\users\weaama\source\repos\assembly_simulator\assembly_simulator\assembly_simulator.cpp(132): warning C4101: 'e': unreferenced local variable
+c:\users\weaama\source\repos\assembly_simulator\assembly_simulator\assembly_simulator.cpp(205): warning C4101: 'e': unreferenced local variable
+  assembly_simulator.vcxproj -> C:\Users\weaama\source\repos\assembly_simulator\Debug\assembly_simulator.exe

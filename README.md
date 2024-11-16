@@ -49,7 +49,7 @@ The test cases are provided in the `tests` directory and include various RISC-V 
 
 ## Authors
 
-- Mahmoud Refaie
-- Nadine Elgarem
-- Hamza Abbas
+- Mahmoud Refaie 900221164
+- Nadine Elgarem 900212296
+- Hamza Abbas 900215363
 

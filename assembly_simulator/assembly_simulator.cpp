@@ -31,7 +31,7 @@ string toBinary(int num, int bits) {
 }
 
 string toBinaryString(int num, int bits = 32) {
-    return toBinary(num, bits);
+    return toBinary(num, bits); 
 }
 
 string toHexString(int num) {
@@ -107,6 +107,7 @@ void executeInstruction(const string& instruction) {
     pc = -1; // Stop program execution
     return;
 }
+
     else if (opcode == "SUB") {
         ss >> rd >> rs1 >> rs2;
         registers[rd] = registers[rs1] - registers[rs2];
@@ -202,8 +203,7 @@ void displayMemory() {
         if (entry.second.find_first_not_of("01") == string::npos) {
             cout << "Address " << entry.first << ": "
                  << entry.second << " (Machine code)" << endl;
-        }
-        else {  // Handle numeric values
+        } else {  // Handle numeric values
             try {
                 int value = stoi(entry.second);
                 cout << "Address " << entry.first << ": "
@@ -235,6 +235,7 @@ void displayProgramCounter() {
          << " | " << toBinaryString(pc)
          << " | 0x" << toHexString(pc) << endl;
 }
+
 
 void runTestCase(const string& programFile, const string& dataFile) {
     fill(begin(registers), end(registers), 0);

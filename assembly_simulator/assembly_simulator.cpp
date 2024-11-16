@@ -102,6 +102,11 @@ void executeInstruction(const string& instruction) {
         ss >> rd >> rs1 >> rs2;
         registers[rd] = registers[rs1] + registers[rs2];
     }
+    if (opcode == "ECALL" || opcode == "EBREAK" || opcode == "FENCE") {
+    cout << "Halting execution due to " << opcode << endl;
+    pc = -1; // Stop program execution
+    return;
+}
     else if (opcode == "SUB") {
         ss >> rd >> rs1 >> rs2;
         registers[rd] = registers[rs1] - registers[rs2];

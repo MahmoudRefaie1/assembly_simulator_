@@ -53,16 +53,3 @@ The test cases are provided in the `tests` directory and include various RISC-V 
 - Nadine Elgarem
 - Hamza Abbas
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-```
-
-This **README.md** focuses on:
-1. A **description** of the project and its features.
-2. **Compilation and execution** instructions.
-3. **Directory structure** to help users navigate the project.
-4. **Test case usage** and how to run them.
-5. The **authors** and **license** information.
-
-This should now be correctly formatted for your GitHub repository!

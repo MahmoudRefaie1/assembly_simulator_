@@ -1,6 +1,4 @@
-Apologies for the confusion! Here's the **README** for GitHub without the LaTeX report and journals. This will be focused solely on the project setup, features, and usage.
 
-```markdown
 # RISC-V Simulator
 
 This repository contains a simple RISC-V simulator implemented in C++. The simulator supports basic arithmetic, logical, load, store, and control flow instructions for the RISC-V architecture. It also includes an assembler to convert assembly code into machine code. The program simulates the execution of RISC-V programs and displays the state of registers, memory, and program counter during execution.
